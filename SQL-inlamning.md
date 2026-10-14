@@ -1,13 +1,15 @@
 # SQL-inlämning — Diskografi
 
-**Namn:** [Ditt namn]  
-**Artist:** [Din valda artist]  
-**Datum:** [Datum]
+**Namn:** Filippa van der Kolk
+**Artist:** Frenna
+**Datum:** 14 October 2026
 
 ---
 
-> Lägg länk till eller bild på ditt ER-diagram här:
-> `[ER-diagram](er_diagram.png)`
+ ER-diagram här:
+ 
+<img width="1536" height="927" alt="ERDiscography" src="https://github.com/user-attachments/assets/ea90502a-cec8-40f7-baae-b44dfd221748" />
+
 
 ---
 
@@ -33,6 +35,8 @@
 
 ```sql
 --- query 1: Lista alla album, sorterade efter år ---
+SELECT * FROM Album
+ORDER BY release_year;
 
 
 --- query 2: Lista alla låtar på ett specifikt album ---
